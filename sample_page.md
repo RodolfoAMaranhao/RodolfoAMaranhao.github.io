@@ -7,7 +7,7 @@ This can also answer the question â€œWhat do people like listening to the most?â
 
 We have two datasets, one containing information on artists and the other on songs. We should first filter noisy data to then merge our two datasets using a unique identifier (In this case, artst_id). Noisy data includes information on songs that might be composed of only speech (like podcasts), no popularity (this could make our analysis unbalanced) and 0 time signature (this could be a typo or experimental music).
 
-```javascript
+```python
 df = df[df['speechiness']<0.66]
 df = df[df['popularity']>0]
 df = df[df['time_signature']>0]
