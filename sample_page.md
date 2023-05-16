@@ -73,4 +73,4 @@ After hyperparameter optimization we can compare the results we got with each mo
 To summarize, predicting the popularity of songs can be very challenging. We have unpredictable one hit wonders and songs by famous artists that failed in an industry that’s always changing. However, through our comprehensive analysis of this matter, we have identified several crucial insights and developed models that are reasonably effective in predicting a song’s level of popularity.
 We also tested the effectiveness of our models, making sure that they are valid and could provide insights to future projects; furthermore, creating value to artists, companies, and the music industry in general.
 
-For more details see [GitHub Flavored Markdown]([https://guides.github.com/features/mastering-markdown/](https://github.com/RodolfoAMaranhao/Predicting-Song-Popularity-on-Spotify/blob/main/Capstone%20report%20Rodolfo%20Maranhao%20(Predicting%20Song%20Popularity%20on%20Spotify).pdf)).
+For more details see <a href="https://github.com/RodolfoAMaranhao/Predicting-Song-Popularity-on-Spotify">Project Files</a> 
