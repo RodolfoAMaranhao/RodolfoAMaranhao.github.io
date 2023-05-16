@@ -16,7 +16,7 @@ df = df[df['time_signature']>0]
 
 Next we should merge our two datasets and begin our analysis.
 
-```javascript
+```python
 df2 = df.merge(df1, on = 'id_artists')
 }
 ```
@@ -40,7 +40,7 @@ Additionally, we should split songs in popularity to create new categories, popu
 
 We can then create a new feature to help our machine learning models predict our results with higher accuracy. We should create a new feature to verify if artists that release more songs tend to be more popular.
 
-```javascript
+```python
 # Set a dataframe with the song counts per artist
 counts_songs = df2['artist'].value_counts()
 
