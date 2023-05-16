@@ -11,14 +11,12 @@ We have two datasets, one containing information on artists and the other on son
 df = df[df['speechiness']<0.66]
 df = df[df['popularity']>0]
 df = df[df['time_signature']>0]
-}
 ```
 
 Next we should merge our two datasets and begin our analysis.
 
 ```python
 df2 = df.merge(df1, on = 'id_artists')
-}
 ```
 
 ### 2. EDA (exploratory data analysis)
@@ -52,8 +50,6 @@ df2 = df2.drop(columns='artist_x')
 
 # rename count column
 df2 = df2.rename(columns={'artist_y': 'NOS_artist'})
-
-}
 ```
 
 We have successfully created our new feature and we are ready to create our ML models.
