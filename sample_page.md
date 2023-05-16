@@ -21,14 +21,14 @@ df2 = df.merge(df1, on = 'id_artists')
 
 ### 2. EDA (exploratory data analysis)
 
-By taking a first look at our data we can definitely see some trends:
-• Most of our songs were released after the 1980s. 
-• Also, the majority of songs were composed in the major scale, in 4/4 time signature, in the Keys of C, F#, G#, D and recorded in studio. 
-• They also are not explicit and have a duration between 2 and 6 minutes.
+By taking a first look at our data we can definitely see some trends: <br><br>
+• Most of our songs were released after the 1980s.  <br><br>
+• Also, the majority of songs were composed in the major scale, in 4/4 time signature, in the Keys of C, F#, G#, D and recorded in studio.  <br><br>
+• They also are not explicit and have a duration between 2 and 6 minutes. <br><br>
 
-• As for Artists, the followers feature was highly skewed (with a minimum of 1 follower, maximum of 78 million and averaging 1.1 million). 
-• Artist Popularity was also skewed (with a minimum of 1, maximum of 100 and averaging 51). 
-• However, the most popular artists (Justin Bieber, Taylor Swift, Bad Bunny…) were not necessarily the artists with the most followers (Ed Sheeran, Ariana Grande, Drake…).
+• As for Artists, the followers feature was highly skewed (with a minimum of 1 follower, maximum of 78 million and averaging 1.1 million).  <br><br>
+• Artist Popularity was also skewed (with a minimum of 1, maximum of 100 and averaging 51).  <br><br>
+• However, the most popular artists (Justin Bieber, Taylor Swift, Bad Bunny…) were not necessarily the artists with the most followers (Ed Sheeran, Ariana Grande, Drake…). <br><br>
 
 Additionally, we should split songs in popularity to create new categories, popular and not_popular. We are trying to predict how likely a song is to fall under the "popular" category, and by taking a first look at our features we can assume we have two features that look more important, "artist_popularity" and "release_year"
 
@@ -64,11 +64,11 @@ After hyperparameter optimization we can compare the results we got with each mo
 
 ### 5. Conclusion and actionable steps
 
-• Popular songs tend to have higher energy, be less explicit and last between 2 to 6 minutes. 
-• Not necessarily the artist with most followers on Spotify scores higher on Artist Popularity. 
-• Songs released after the 2000s have a much higher tendency to become popular. 
-• Artist popularity matters, people view songs as popular if they were made by artists they already know. 
-• With an accuracy of about 83% our Random Forest was our best performing model.
+• Popular songs tend to have higher energy, be less explicit and last between 2 to 6 minutes.  <br><br>
+• Not necessarily the artist with most followers on Spotify scores higher on Artist Popularity.  <br><br>
+• Songs released after the 2000s have a much higher tendency to become popular.  <br><br>
+• Artist popularity matters, people view songs as popular if they were made by artists they already know.  <br><br>
+• With an accuracy of about 83% our Random Forest was our best performing model. <br><br>
 
 To summarize, predicting the popularity of songs can be very challenging. We have unpredictable one hit wonders and songs by famous artists that failed in an industry that’s always changing. However, through our comprehensive analysis of this matter, we have identified several crucial insights and developed models that are reasonably effective in predicting a song’s level of popularity.
 We also tested the effectiveness of our models, making sure that they are valid and could provide insights to future projects; furthermore, creating value to artists, companies, and the music industry in general.
