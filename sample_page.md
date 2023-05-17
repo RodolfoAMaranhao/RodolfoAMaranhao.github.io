@@ -31,7 +31,8 @@ By taking a first look at our data we can definitely see some trends: <br><br>
 
 Additionally, we should split songs in popularity to create new categories, popular and not_popular (we'll use the average popularity point to perform this split). We are trying to predict how likely a song is to fall under the "popular" category, and by taking a first look at our features we can assume we have two features that look more important, "artist_popularity" and "release_year"
 
-<img src="images/Overlaid Histograms.png"/>
+<img src="images/Overlaid Histograms1.png"/>
+<img src="images/Overlaid Histograms1.png"/>
 
 ### 3. Feature Engineering
 
