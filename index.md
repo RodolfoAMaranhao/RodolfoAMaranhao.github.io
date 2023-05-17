@@ -4,7 +4,7 @@
 
 ### Data Science 
 
-[Predicting Song Popularity on Spotify](/sample_page)
+[Predicting Song Popularity on Spotify](/Capstone_page)
 <img src="images/Presentation Dashboard.png"/>
 
 ---
