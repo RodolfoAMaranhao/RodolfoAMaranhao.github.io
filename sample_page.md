@@ -1,7 +1,6 @@
 ## Predicting Song Popularity on Spotify
 
-**Project description:** Can we use a publicly available dataset on Spotify songs to create machine learning algorithms that can accurately predict song popularity on Spotify? This could be potentially insightful for new and upcoming artists trying to grow a business in the music industry.
-This can also answer the question “What do people like listening to the most?”. This is paramount for companies that want to make their advertisements more effective or want to appeal more to certain audiences.
+**Project description:** Can we use a publicly available dataset on Spotify songs to create machine learning models that can accurately predict song popularity on Spotify? In other words, Can we preditct what people like listening to the most? This is paramount for companies that want to make their advertisements more effective or want to appeal more to certain audiences.
 
 ### 1. Import and Clean data
 
@@ -23,14 +22,14 @@ df2 = df.merge(df1, on = 'id_artists')
 
 By taking a first look at our data we can definitely see some trends: <br><br>
 • Most of our songs were released after the 1980s.  <br><br>
-• Also, the majority of songs were composed in the major scale, in 4/4 time signature, in the Keys of C, F#, G#, D and recorded in studio.  <br><br>
-• They also are not explicit and have a duration between 2 and 6 minutes. <br><br>
+• The majority of songs were composed in the major scale, in 4/4 time signature, in the Keys of C, F#, G#, D and recorded in studio.  <br><br>
+• Additionally, most songs are also not explicit and have a duration between 2 and 6 minutes. <br><br>
 
 • As for Artists, the followers feature was highly skewed (with a minimum of 1 follower, maximum of 78 million and averaging 1.1 million).  <br><br>
 • Artist Popularity was also skewed (with a minimum of 1, maximum of 100 and averaging 51).  <br><br>
-• However, the most popular artists (Justin Bieber, Taylor Swift, Bad Bunny…) were not necessarily the artists with the most followers (Ed Sheeran, Ariana Grande, Drake…). <br><br>
+• However, the most popular artists (Justin Bieber, Taylor Swift, Bad Bunny…) were not necessarily the artists with the most followers on Spotify (Ed Sheeran, Ariana Grande, Drake…). <br><br>
 
-Additionally, we should split songs in popularity to create new categories, popular and not_popular. We are trying to predict how likely a song is to fall under the "popular" category, and by taking a first look at our features we can assume we have two features that look more important, "artist_popularity" and "release_year"
+Additionally, we should split songs in popularity to create new categories, popular and not_popular (we'll use the average popularity point to perform this split). We are trying to predict how likely a song is to fall under the "popular" category, and by taking a first look at our features we can assume we have two features that look more important, "artist_popularity" and "release_year"
 
 <img src="images/Overlaid Histograms.png"/>
 
@@ -52,11 +51,9 @@ df2 = df2.drop(columns='artist_x')
 df2 = df2.rename(columns={'artist_y': 'NOS_artist'})
 ```
 
-We have successfully created our new feature and we are ready to create our ML models.
-
 ### 4. Create Machine Learning Models
 
-Since our target variable is binary it makes sense to start with Logistic Regression and follow up with Decision Tree Classifier. After seeing that Descision Tree Classifier had very positive results it makes sense to try a Random Forest model.
+Since our target variable is binary it makes sense to start with Logistic Regression and follow up with Decision Tree Classifier. After seeing that Descision Tree Classifier had very positive results, it makes sense to try a Random Forest model.
 
 After hyperparameter optimization we can compare the results we got with each model by measuring accuracy, recall, precision, F1 score and plotting the ROC/AUC.
 
@@ -70,7 +67,7 @@ After hyperparameter optimization we can compare the results we got with each mo
 • Artist popularity matters, people view songs as popular if they were made by artists they already know.  <br><br>
 • With an accuracy of about 83% our Random Forest was our best performing model. <br><br>
 
-To summarize, predicting the popularity of songs can be very challenging. We have unpredictable one hit wonders and songs by famous artists that failed in an industry that’s always changing. However, through our comprehensive analysis of this matter, we have identified several crucial insights and developed models that are reasonably effective in predicting a song’s level of popularity.
+To summarize, through our comprehensive analysis of the matter, we have identified several crucial insights and developed models that are reasonably effective in predicting a song’s level of popularity on Spotify.
 We also tested the effectiveness of our models, making sure that they are valid and could provide insights to future projects; furthermore, creating value to artists, companies, and the music industry in general.
 
 For more details see <a href="https://github.com/RodolfoAMaranhao/Predicting-Song-Popularity-on-Spotify">Project Files</a> 
