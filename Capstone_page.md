@@ -4,7 +4,7 @@
 
 ### 1. Import and Clean data
 
-We have two datasets, one containing information on artists and the other on songs. We should first filter noisy data to then merge our two datasets using a unique identifier (In this case, artst_id). Noisy data includes information on songs that might be composed of only speech (like podcasts), no popularity (this could make our analysis unbalanced) and 0 time signature (this could be a typo or experimental music).
+We have two datasets, one containing information on artists and the other on songs. We should first filter noisy data to then merge our two datasets using a unique identifier (In this case, id_artists). Noisy data includes information on songs that might be composed of only speech (like podcasts), no popularity (this could make our analysis unbalanced) and 0 time signature (this could be a typo or experimental music).
 
 ```python
 df = df[df['speechiness']<0.66]
