@@ -1,6 +1,6 @@
 ## Predicting Song Popularity on Spotify
 
-**Project description:** Can we use a publicly available dataset on Spotify songs to create machine learning models that can accurately predict song popularity on Spotify? In other words, Can we preditct what people like listening to the most? 
+**Project description:** Can we use a publicly available dataset on Spotify songs to create machine learning models that can accurately predict song popularity on Spotify? In other words, can we preditct what people like listening to the most? 
 
 ### 1. Import and Clean data
 
