@@ -57,7 +57,8 @@ Since our target variable is binary it makes sense to start with Logistic Regres
 
 After hyperparameter optimization we can compare the results we got with each model by measuring accuracy, recall, precision, F1 score and plotting the ROC/AUC.
 
-<img src="images/ROC AUC Edited.png"/>
+<img src="images/ML Models Results.png"/>
+<img src="images/ML Models Results.png"/>
 
 ### 5. Conclusion and actionable steps
 
