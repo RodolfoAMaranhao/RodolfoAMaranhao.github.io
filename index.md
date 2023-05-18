@@ -4,7 +4,7 @@
 
 ### Data Science 
 
-[Predicting Song Popularity on Spotify](/Capstone_page.md)
+[Using Random Forest to predict Song Popularity on Spotify](/Capstone_page.md)
 <img src="images/Presentation Dashboard.png"/>
 
 ---
