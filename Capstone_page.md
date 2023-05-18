@@ -1,4 +1,4 @@
-## Predicting Song Popularity on Spotify
+## Using Random Forest to predict Song Popularity on Spotify
 
 **Project description:** Can we use a publicly available dataset on Spotify songs to create machine learning models that can accurately predict song popularity on Spotify? In other words, can we preditct what people like listening to the most? 
 
