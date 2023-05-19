@@ -15,7 +15,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Analyzing the impact of exercise, alcohol consumption and smoking on sleep quality with Tableau and SQL](/Capstone_page.md)
+[Analyzing the impact of exercise, alcohol consumption and smoking on sleep quality with Tableau and SQL](/Sleep_Study_page.md)
 <img src="images/Smoking Dashboard1.png"/>
 
 ---
