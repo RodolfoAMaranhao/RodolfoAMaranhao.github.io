@@ -15,8 +15,8 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Analyzing exercise, alcohol consumption and smoking impact on sleep quality with Tableau and SQL](/Capstone_page.md)
+<img src=""/>
 
 ---
 [Project 4 Title](http://example.com/)
