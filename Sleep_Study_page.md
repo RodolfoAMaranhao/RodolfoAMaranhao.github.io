@@ -23,5 +23,5 @@ Using a combination of Tableau and SQL, we will explore a dataset containing inf
 
 In conclusion, we have data to support common knowleadge. Exercising a few times a week, not smoking and drinking a max of 1oz of alcohol before bed seem to be the best steps for someone that wants to increase their sleep quality.
 
-For more details see <a href="https://github.com/RodolfoAMaranhao/Predicting-Song-Popularity-on-Spotify">Project Files</a> 
+For more details see <a href="https://github.com/RodolfoAMaranhao/Sleep_Study_with_Tableau_SQL">Project Files</a> 
 
