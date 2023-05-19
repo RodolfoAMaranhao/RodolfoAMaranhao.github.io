@@ -3,7 +3,7 @@
 **Project description:** 
 
 
-<img src="images/Overlaid Histograms1.png"/>
+<img src="images/Smoking Dashboard1.png"/>
 <img src="images/Overlaid Histograms2.png"/>
 
 ### Project Limitations
