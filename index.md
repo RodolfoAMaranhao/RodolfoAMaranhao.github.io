@@ -7,7 +7,7 @@
 
 ---
 
-[Creating a Power BI Dashboard on a Steam Games Sales Analysis](/)
+[Creating a Power BI Dashboard on a Steam Games Sales Analysis](/Steam_Dash_Page.md)
 <img src="images/SteamDashP1.png"/>
 
 ---
