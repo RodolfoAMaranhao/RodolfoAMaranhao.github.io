@@ -1,4 +1,4 @@
-## Creating a Power BI Dashboard on Steam Games Sales Analysis
+## Developing a Power BI dashboard for analyzing sales data of Steam games
 
 **Project description:** The aim of this project is to develop a Power BI Dashboard that effectively visualizes significant trends and enables actionable insights, with the ultimate goal of ensuring the success and growth of the company Steam within the video games industry.
 
