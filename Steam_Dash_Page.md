@@ -13,4 +13,4 @@
 
 To conclude, Steam has some clear best-selling games. Making sales and advertising for their main games could increase revenue and bring more gamers to purchase and play such games. Other gaming comnpanies can also try to understand how these games are compelling people to purchase and try to replicate some strategies to make the gaming industry more competitive. For example, the 3 games most played have competitions where the champions win considerable prizes. Additionally, these games are constantly getting updated and release new features constantly. 
 
-For more details see <a href="https://github.com/RodolfoAMaranhao/Sleep_Study_with_Tableau_SQL">Project Files</a> 
+For more details see <a href="https://github.com/RodolfoAMaranhao/Power_BI_Steam_Games_Dashboard">Project Files</a> 
