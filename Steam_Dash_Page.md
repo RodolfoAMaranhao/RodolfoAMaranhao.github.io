@@ -11,6 +11,6 @@
 • On average, each gamer will buy about 10 games. <br><br>
 • Even though Dota 2 is the best selling game and most played game overall, Sid Meier's Civilization V was the game played the longest by a single gamer.  <br><br>
 
-To conclude, Steam has some clear best-selling games. Making sales and advertising for their main games could increase revenue and bring more gamers to purchase and play such games. Other gaming comnpanies can also try to understand how these games are compelling people to purchase and try to replicate some strategies to make the gaming industry more competitive. For example, the 3 games most played have competitions where the champions win considerable prizes. Additionally, these games are constantly getting updated and release new features constantly. 
+In summary, Steam possesses several standout best-selling games. Focusing on sales and marketing efforts for these flagship titles has the potential to boost revenue and attract a larger player base. Other gaming companies can learn from the success of these games and aim to replicate some of their strategies, thereby enhancing competitiveness in the gaming industry. For example, the top three games have organized competitions with significant prizes for champions, compelling players to play more. Furthermore, these games maintain a continuous updates and introduce new features on a regular basis, always bringing something new to the table.
 
 For more details see <a href="https://github.com/RodolfoAMaranhao/Power_BI_Steam_Games_Dashboard">Project Files</a> 
