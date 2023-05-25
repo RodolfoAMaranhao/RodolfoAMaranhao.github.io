@@ -2,7 +2,7 @@
 
 **Project description:** The aim of this project is to develop a Power BI Dashboard that effectively visualizes significant trends and enables actionable insights, with the ultimate goal of ensuring the success and growth of the company Steam within the video games industry.
 
-<img src="images/Smoking Dashboard1.png"/>
+<img src="images/SteamDashP1.png"/>
 
 ### Key takeaways and Conclusion
 
