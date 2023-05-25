@@ -6,7 +6,7 @@
 
 ### Key takeaways and Conclusion
 
-• Dota 2 is clearly the most sold and played game of Steam, followed by Team Fortress 2 and Unturned.  <br><br>
+• Dota 2 is clearly the most sold game of Steam, followed by Team Fortress 2 and Unturned.  <br><br>
 • When combining Dota 2, Counter-Strike Global Offensive and Team Fortress 2 we have about 41% of the total games played by hour in the dataset. Making these the top 3 games played the longest.  <br><br>
 • On average, each gamer will buy about 10 games. <br><br>
 • Even though Dota 2 is the best selling game and most played game overall, Sid Meier's Civilization V was the game played the longest by a single gamer.  <br><br>
