@@ -7,13 +7,13 @@
 
 ---
 
-[Developing a Power BI dashboard for analyzing sales data of Steam games](/Steam_Dash_Page.md)
-<img src="images/SteamDashP1.png"/>
+[Analyzing the impact of exercise, alcohol consumption and smoking on sleep quality with Tableau and SQL](/Sleep_Study_page.md)
+<img src="images/Smoking Dashboard1.png"/>
 
 ---
 
-[Analyzing the impact of exercise, alcohol consumption and smoking on sleep quality with Tableau and SQL](/Sleep_Study_page.md)
-<img src="images/Smoking Dashboard1.png"/>
+[Developing a Power BI dashboard for analyzing sales data of Steam games](/Steam_Dash_Page.md)
+<img src="images/SteamDashP1.png"/>
 
 ---
 
