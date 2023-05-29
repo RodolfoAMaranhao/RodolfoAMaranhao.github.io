@@ -1,5 +1,7 @@
 ## Portfolio
 
+--
+
 ###  Welcome to my portfolio! With proficiency in Python, SQL, Excel, Tableau, and Power BI, my portfolio features projects that showcase my abilities in data analysis and data science, from exploratory data analysis and machine learning models to interactive dashboards.
 
 ---
