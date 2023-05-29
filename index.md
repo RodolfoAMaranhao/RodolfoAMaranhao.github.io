@@ -1,8 +1,9 @@
 ## Portfolio
 
-Welcome to my portfolio! Please feel free to explore my projects and contact me on Linkedin as we explore the future of data. As a recent data science bootcamp graduate, I offer a unique perspective and a diverse skill set in the field of data. 
+Welcome to my portfolio! As a recent data science bootcamp graduate, I offer a unique perspective and a diverse skill set in the field of data. 
 I am passionate about extracting actionable insights from complex data to achieve meaningful outcomes. With proficiency in Python, SQL, Excel, Tableau, and Power BI, my portfolio features projects that showcase my abilities in data analysis and data science, 
-from exploratory data analysis and machine learning models to interactive dashboards. 
+from exploratory data analysis and machine learning models to interactive dashboards.
+Please feel free to explore my projects and contact me on Linkedin as we explore the future of data.
 
 ---
 
