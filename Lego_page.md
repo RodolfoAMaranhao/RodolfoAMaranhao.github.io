@@ -52,6 +52,6 @@ WHERE s.name = "Weetabix Castle"
 ```
 
 
-For more details see <a href="https://github.com/RodolfoAMaranhao/Sleep_Study_with_Tableau_SQL">Project Files</a> 
+For more details see <a href="https://github.com/RodolfoAMaranhao/Lego_parts_analysis_SQL_ERD">Project Files</a> 
 
 
