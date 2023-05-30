@@ -51,6 +51,8 @@ WHERE s.name = "Weetabix Castle"
 
 ```
 
+In this example we can look at the Name os the Lego set, the names of the parts and the names of the parts categories for only the set called "Weetabix Castle".
+
 
 For more details see <a href="https://github.com/RodolfoAMaranhao/Lego_parts_analysis_SQL_ERD">Project Files</a> 
 
