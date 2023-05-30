@@ -22,18 +22,14 @@ Please feel free to explore my projects and contact me on Linkedin as we explore
 
 ---
 
-
-
-
----
-
-
+[Analyzing a Lego Database: Building an ERD with Lucidchart and Utilizing SQL Joins](/Steam_Dash_Page.md)
+<img src="images/Lego ERD.pdf"/>
 
 ---
 
 
 
-
 ---
+
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
