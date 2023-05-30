@@ -4,8 +4,7 @@
 
 
 
-<img src="images/Lego ERD.pdf"/>
-
+<img src="images/Lego ERD.png"/>
 
 
 ### Key takeaways and Conclusion
