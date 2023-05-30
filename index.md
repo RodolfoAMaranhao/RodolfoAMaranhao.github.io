@@ -23,7 +23,7 @@ Please feel free to explore my projects and contact me on Linkedin as we explore
 ---
 
 [Analyzing a Lego Database: Building an ERD with Lucidchart and Utilizing SQL Joins](/Lego_Page.md)
-<img src="images/Lego ERD.pdf"/>
+<img src="images/Lego ERD.png"/>
 
 ---
 
