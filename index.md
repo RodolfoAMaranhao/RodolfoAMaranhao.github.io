@@ -12,6 +12,11 @@ Please feel free to explore my projects and contact me on Linkedin as we explore
 
 ---
 
+[Revealing Patterns in High Schoolers' Behavior: EDA and ML for Predicting and Preventing Youth Riding with Drinking Drivers](/)
+<img src="images/"/>
+
+---
+
 [Analyzing the impact of exercise, alcohol consumption and smoking on sleep quality with Tableau and SQL](/Sleep_Study_page.md)
 <img src="images/Smoking Dashboard1.png"/>
 
@@ -24,10 +29,6 @@ Please feel free to explore my projects and contact me on Linkedin as we explore
 
 [Analyzing a Lego Database: Building an ERD with Lucidchart and Utilizing SQL Joins](/Lego_page.md)
 <img src="images/Lego ERD.png"/>
-
----
-
-
 
 ---
 
