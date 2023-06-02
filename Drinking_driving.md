@@ -77,8 +77,8 @@ According to our Logistic Regression Coefficients our suspicion from before was 
 
 However, our Logistic regression model did not perform very well, and our two other models had the same performance. All metrics (Accuracy, Recall, Precision and F1 score) revolved around 65%. This is because we have some limitations due to the dataset that will be addressed in the conclusion. 
 
-<img src="images/ROC_dd"/>
-<img src="images/Mectrics_dd"/>
+<img src="images/ROC_dd.png"/>
+<img src="images/Mectrics_dd.png"/>
 
 ### 5. Conclusion, actionable steps and project limitations
 
