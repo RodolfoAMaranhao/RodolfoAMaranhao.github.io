@@ -13,7 +13,7 @@ Please feel free to explore my projects and contact me on Linkedin as we explore
 ---
 
 [Revealing Patterns in High Schoolers' Behavior: EDA and ML for Predicting and Preventing Youth Riding with Drinking Drivers](/)
-<img src="images/"/>
+<img src="images/pexels-photo-174936.jpeg"/>
 
 ---
 
