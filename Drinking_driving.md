@@ -25,13 +25,11 @@ df.rename(columns={'ride.alc.driver': 'DrunkDriver'}, inplace=True)
 
 Now we can analyze the distribution of our data per feature, and then take a look at some overlaid plots to see if we can identify some potential differences between the high schoolers that ride with drinking drivers vs the ones that don't.
 
-
-
-By taking a first look at our data we can definitely see some trends: <br><br>
-
 <img src="images/Overlaid.png"/>
 <img src="images/OverlaidHistGender.png"/>
 <img src="images/OverlaidHistSmoker.png"/>
+
+By taking a first look at our data we can definitely see some trends: <br><br>
 
 • The female students seem to ride more often with drinking drivers <br><br>
 • Smokers also seem to ride more frequently with drinking drivers <br><br>
