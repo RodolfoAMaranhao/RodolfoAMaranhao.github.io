@@ -29,13 +29,13 @@ now we can analyze the distribution of our data per feature, and then take a loo
 
 By taking a first look at our data we can definitely see some trends: <br><br>
 
+
+<img src="images/OverlaidHistGender.png"/>
+<img src="images/OverlaidHistSmoker.png"/>
+
 • The female students seem to ride more often with drinking drivers <br><br>
 • Smokers also seem to ride more frequently with drinking drivers <br><br>
 • Grade, Age and Having a Driver's License did not seem to exhibit a different pattern between the passengers of drinking drivers <br><br>
-
-
-<img src=""/>
-<img src=""/>
 
 
 ### 3. Feature Engineering
