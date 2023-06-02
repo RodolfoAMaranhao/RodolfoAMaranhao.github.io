@@ -29,7 +29,7 @@ now we can analyze the distribution of our data per feature, and then take a loo
 
 By taking a first look at our data we can definitely see some trends: <br><br>
 
-
+<img src="images/Overlaid.png"/>
 <img src="images/OverlaidHistGender.png"/>
 <img src="images/OverlaidHistSmoker.png"/>
 
@@ -40,11 +40,35 @@ By taking a first look at our data we can definitely see some trends: <br><br>
 
 ### 3. Feature Engineering
 
-
+Now we can create a new feature to try and make our machine learning models more effective. We can try to see if high schoolers that potentially repeated a school year at some point are at a higher risk of riding with drinking drivers
 
 ```python
+def check_repeated(row):
+    school_year = row['Grade']
+    age = row['Age']
+    
+    if school_year == 9:
+        expected_age = 15
+    elif school_year == 10:
+        expected_age = 16
+    elif school_year == 11:
+        expected_age = 17
+    else:
+        expected_age = 18
 
+    if age > expected_age:
+        return 1
+    else:
+        return 0
+
+df['Has_repeated'] = df.apply(check_repeated, axis=1)
 ```
+
+After that, we can check the correlation coefficients and our p values to see what features we will keep in our ml models
+
+<img src="images/Correlation.png"/>
+
+As expected, age, grade and having a driver's license are highly correlated and should not be added in conjunction to an ml model. From our EDA it makes sense to keep grade and drop the other two.
 
 ### 4. Create Machine Learning Models
 
