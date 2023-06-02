@@ -25,7 +25,6 @@ df.rename(columns={'ride.alc.driver': 'DrunkDriver'}, inplace=True)
 
 Now we can analyze the distribution of our data per feature, and then take a look at some overlaid plots to see if we can identify some potential differences between the high schoolers that ride with drinking drivers vs the ones that don't.
 
-<img src="images/Overlaid.png"/>
 <img src="images/OverlaidHistGender.png"/>
 <img src="images/OverlaidHistSmoker.png"/>
 
@@ -62,9 +61,7 @@ def check_repeated(row):
 df['Has_repeated'] = df.apply(check_repeated, axis=1)
 ```
 
-After that, we can check the correlation coefficients and our p values to see what features we will keep in our ml models
-
-<img src="images/Correlation.png"/>
+After that, we can check the correlation coefficients to avoid multicolinearity and our p values to see what features we will keep in our ml models
 
 As expected, age, grade and having a driver's license are highly correlated and should not be added in conjunction to an ml model. From our EDA it makes sense to keep grade and drop the other two.
 
