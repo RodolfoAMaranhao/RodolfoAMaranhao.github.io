@@ -72,7 +72,7 @@ As expected, age, grade and having a driver's license are highly correlated and 
 
 Now we can start our ML models. Let's first start with Logistic Regression and Random Forest, then we can try XGBoost.
 
-<img src="images/LRCoeff"/>
+<img src="images/LRCoeff.png"/>
 According to our Logistic Regression Coefficients our suspicion from before was correct, the model seems to rely heavily on the features "Gender" and "Smoker" to make its prediction.
 
 However, our Logistic regression model did not perform very well, and our two other models had the same performance. All metrics (Accuracy, Recall, Precision and F1 score) revolved around 65%. This is because we have some limitations due to the dataset that will be addressed in the conclusion. 
