@@ -4,7 +4,7 @@
 
 ### 1. Import and Clean data 
 
-We saould first import the data and perform some basic data cleaning steps, like getting dropping unwanted columns/null values and renaming columns so that they are more readable. 
+We should first import the data and perform some basic data cleaning steps, like getting dropping unwanted columns/null values and renaming columns so that they are more readable. 
 
 ```python
 # Drop the first column that served as an index before
