@@ -63,7 +63,7 @@ df['Has_repeated'] = df.apply(check_repeated, axis=1)
 
 After that, we can check the correlation coefficients to avoid multicolinearity and our p values to see what features we will keep in our ml models
 
-As expected, age, grade and having a driver's license are highly correlated and should not be added in conjunction to an ml model. From our EDA it makes sense to keep grade and drop the other two.
+As expected, age, grade and having a driver's license are highly correlated and should not be added in conjunction to a Machine Learning model. From our EDA it makes sense to keep grade and drop the other two.
 
 ### 4. Create Machine Learning Models
 
