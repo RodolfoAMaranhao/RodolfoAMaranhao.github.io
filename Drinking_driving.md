@@ -23,7 +23,7 @@ df.rename(columns={'ride.alc.driver': 'DrunkDriver'}, inplace=True)
 
 ### 2. EDA (exploratory data analysis)
 
-now we can analyze the distribution of our data per feature, and then take a look at some overlaid plots to see if we can identify some potential differences between the high schoolers that ride with drinking drivers vs the ones that don't.
+Now we can analyze the distribution of our data per feature, and then take a look at some overlaid plots to see if we can identify some potential differences between the high schoolers that ride with drinking drivers vs the ones that don't.
 
 
 
