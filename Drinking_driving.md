@@ -77,8 +77,8 @@ According to our Logistic Regression Coefficients our suspicion from before was 
 
 However, our Logistic regression model did not perform very well, and our two other models had the same performance. All metrics (Accuracy, Recall, Precision and F1 score) revolved around 65%. This is because we have some limitations due to the dataset that will be addressed in the conclusion. 
 
-<img src="ROC_dd"/>
-<img src="Mectrics_dd"/>
+<img src="images/ROC_dd"/>
+<img src="images/Mectrics_dd"/>
 
 ### 5. Conclusion, actionable steps and project limitations
 
@@ -86,13 +86,13 @@ Unfortunately, this dataset was not ideal for creating machine learning models. 
 
 However, despite these challenges, we were able to draw some meaningful conclusions:
 
-1. Girls tend to ride with drinking drivers more frequently than guys. This observation raises the possibility that guys themselves may be more inclined to drive while drinking, but exploring this topic would require further investigation.
+1. Girls tend to ride with drinking drivers more frequently than guys. It is possible that guys tend to be the ones drinking and driving but that is a different topic.
 
-2. Smokers also exhibit a higher tendency to ride with drinking drivers. This finding suggests a potential correlation between smoking habits and risky behavior in terms of alcohol consumption and transportation choices.
+2. Smokers also exhibit a higher tendency to ride with drinking drivers. 
 
 3. Differences in age or grade did not appear to have an impact on the likelihood of high schoolers riding with drinking drivers. Other factors may play a more significant role in influencing this behavior among teenagers.
 
-4. Owning a driver's license did not seem to influence whether or not teens would ride with drinking drivers. This suggests that the possession of a license does not act as a deterrent or mitigate the risk associated with riding with an impaired driver.
+4. Owning a driver's license did not seem to influence whether or not teens would ride with drinking drivers. 
 
 To enhance future projects, the Centers for Disease Control and Prevention (CDC) could consider expanding the questionnaire to include additional relevant questions and also collect more data. After upsampling, our dataset was only able to reach 16,866 rows, which is not enough for a good Machine Learning project.
 
