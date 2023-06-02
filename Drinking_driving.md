@@ -72,17 +72,33 @@ As expected, age, grade and having a driver's license are highly correlated and 
 
 ### 4. Create Machine Learning Models
 
+Now we can start our ML models. Let's first start with Logistic Regression and Random Forest, then we can try XGBoost.
 
+<img src="images/LRCoeff"/>
+According to our Logistic Regression Coefficients our suspicion from before was correct, the model seems to rely heavily on the features "Gender" and "Smoker" to make its prediction.
 
-<img src="images/ML Models Results.png"/>
-<img src="images/ML Models ROC AUC.png"/>
+However, our Logistic regression model did not perform very well, and our two other models had the same performance. All metrics (Accuracy, Recall, Precision and F1 score) revolved around 65%. This is because we have some limitations due to the dataset that will be addressed in the conclusion. 
+
+<img src="ROC_dd"/>
+<img src="Mectrics_dd"/>
 
 ### 5. Conclusion, actionable steps and project limitations
 
-• Popular songs tend to have higher energy, be less explicit and last between 2 to 6 minutes.  <br><br>
+Unfortunately, this dataset was not ideal for creating machine learning models. Due to the limited number of features and insufficient data, our progress with this project was restricted.
 
+However, despite these challenges, we were able to draw some meaningful conclusions:
 
-To 
+1. Girls tend to ride with drinking drivers more frequently than guys. This observation raises the possibility that guys themselves may be more inclined to drive while drinking, but exploring this topic would require further investigation.
+
+2. Smokers also exhibit a higher tendency to ride with drinking drivers. This finding suggests a potential correlation between smoking habits and risky behavior in terms of alcohol consumption and transportation choices.
+
+3. Differences in age or grade did not appear to have an impact on the likelihood of high schoolers riding with drinking drivers. Other factors may play a more significant role in influencing this behavior among teenagers.
+
+4. Owning a driver's license did not seem to influence whether or not teens would ride with drinking drivers. This suggests that the possession of a license does not act as a deterrent or mitigate the risk associated with riding with an impaired driver.
+
+To enhance future projects, the Centers for Disease Control and Prevention (CDC) could consider expanding the questionnaire to include additional relevant questions and also collect more data. After upsampling, our dataset was only able to reach 16,866 rows, which is not enough for a good Machine Learning project.
+
+In conclusion, although the dataset had its limitations, we were able to work with it and derive some potentially valuable insights.
 
 For more details see <a href="https://github.com/RodolfoAMaranhao/Predicting-Song-Popularity-on-Spotify">Project Files</a> 
 
